@@ -6,8 +6,9 @@ const games = [
   { emoji: "🌍", name: "Travle", url: "https://travle.earth" },
   { emoji: "🗺️", name: "Worldle", url: "https://worldle.teuteuf.fr" },
   { emoji: "🏳️", name: "Flagle", url: "https://www.flagle.io" },
-  { emoji: "🎵", name: "Bandle", url: "https://bandle.app" },
   { emoji: "🍔", name: "Foodguessr", url: "https://foodguessr.com" },
+  { emoji: "⚔️", name: "Loldle", url: "https://loldle.net/classic" },
+  { emoji: "🔴", name: "Pokedle", url: "https://pokedle.net/classic" },
 ];
 
 async function sendMessage(content) {
