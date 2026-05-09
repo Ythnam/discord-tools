@@ -36,7 +36,7 @@ async function main() {
     month: "long",
     day: "numeric",
   });
-  await sendMessage(`**🎮 Daily Games — ${today}**\n<@&${DISCORD_ROLE_ID_IRL}> C'est l'heure de jouer !`);
+  await sendMessage(`**🎮 Daily Games — ${today}**\nC'est l'heure de jouer !`);
   // 1 message / game
   for (const game of games) {
     await sendMessage(`${game.emoji} **${game.name}** — ${game.url}`);
